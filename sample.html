@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LightBox</title>
+		<link rel="stylesheet" href="content/scripts/lightbox/css/jquery.lightbox-0.5.css"/>
+		<style>
+			#lightbox{width:80%;margin:0px auto;}
+			#lightbox div{padding-right:10px;width:23%;float:left;}
+			#header{max-height:92px;background-color:#343434;color:#ffffff;font-size:46px;text-indent:10%;}
+			#bodyContent{width:80%;margin:0px auto;background-color:#e1e3e4;padding:5px;height:600px;}
+			body{margin:0px;padding:0px;font-size:18px;font-family:calibri}
+			p{margin-top:0px;}
+			h2{margin-bottom:5px;}
+		</style>
+	</head>
+	<body style="width:100%;height:100px;">
+		<div id="header">
+			Lightbox Plugin
+		</div>
+		<div id="bodyContent">
+			<div>
+				<p>It is a jQuery plugin and it is open source. Below you can find the features and sample.</p>
+				<h2>Here are its features</h2>
+				<ol>
+					<li>Image size is auto adjustable</li>
+					<li>you can give title for the images</li>
+					<li>there are some keyboard shortcuts for next and previous images</li>
+				</ol>
+			</div>
+			<div id="lightbox">
+				<div><a href="content/images/Chrysanthemum.jpg" class="js_lb" title="Chrysanthemum"><img height="150px" width="100%" src="content/images/Chrysanthemum.jpg"/></a></div>
+				<div><a href="content/images/desert.jpg" class="js_lb" title="Desert"><img height="150px" width="100%" src="content/images/desert.jpg"/></a></div>
+				<div><a href="content/images/hydrangeas.jpg" class="js_lb" title="Hydrangeas"><img height="150px" width="100%" src="content/images/hydrangeas.jpg"/></a></div>
+				<div><a href="content/images/jellyfish.jpg" class="js_lb" title="Jelly Fish"><img height="150px" width="100%" src="content/images/jellyfish.jpg"/></a></div>
+				<br clear="all"/>
+			</div>
+			<div>
+				<ul>
+					<li>keyboard shortcuts are p-prev,n-next,c-close</li>
+					<li>you can change the overlay color,opacity,shortcut keys in js file</li>
+					<li>the size of the title can be changed in css</li>
+				</ul>
+			</div>
+		</div>		
+		<script src="content/scripts/jquery/jquery-1.9.1.js"></script>
+		<script src="content/scripts/lightbox/js/jquery.lightbox-0.5.js"></script>
+		<script>
+			$(function(){$('.js_lb').lightBox();});
+		</script>
+	</body>
+</html>
