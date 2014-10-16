@@ -1,0 +1,30 @@
+{
+	"name": "lightbox",
+	"title": "jQuery LightBox",
+	"description": "To view images",
+	"keywords": [
+		"jquery",
+		"lightbox",
+		"plugins"
+	],
+	"version": "0.5",
+	"author": {
+		"name": "Lokesh Dhakar"
+	},
+	"maintainers": [
+		{
+			"name": "Balakumar"
+		}
+	],
+	"licenses": [
+		{
+			"type": "CCAttribution-ShareAlike 2.5 Brazil",
+			"url": "http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US"
+		}
+	],
+	"bugs": "https://github.com/Baalu/Lightbox-jQuery/issues",
+	"download": "https://github.com/Baalu/Lightbox-jQuery",
+	"dependencies": {
+		"jquery": ">=1.9"
+	}
+}
