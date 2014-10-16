@@ -25,6 +25,6 @@
 	"bugs": "https://github.com/Baalu/Lightbox-jQuery/issues",
 	"download": "https://github.com/Baalu/Lightbox-jQuery",
 	"dependencies": {
-		"jquery": ">=1.9"
+		"jquery": ">=1.2.3"
 	}
 }
