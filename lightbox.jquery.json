@@ -9,7 +9,8 @@
 	],
 	"version": "1.0.0",
 	"author": {
-		"name": "Lokesh Dhakar"
+		"name": "Lokesh Dhakar",
+		"url": "http://www.lokeshdhakar.com/"
 	},
 	"maintainers": [
 		{
